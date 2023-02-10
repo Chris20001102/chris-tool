@@ -48,7 +48,7 @@ class MyNavbar extends Component {
                 <Collapse isOpen={!this.state.collapse} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href={process.env.PUBLIC_URL + "/test"}>TEST</NavLink>
+                            <NavLink href={"/chris-tool/test"}>TEST</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://github.com/AidenYang12345">GitHub</NavLink>
