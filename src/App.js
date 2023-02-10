@@ -4,7 +4,7 @@ import {
   BrowserRouter,
   HashRouter,
   Route,
-  Switch
+  Switch,
 } from 'react-router-dom';
 import Home from './Home';
 import Test from './Test';
@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <BrowserRouter basename={"/chris-tool/"} >
         <Switch>
+
           <Route path={"/"} component={Home} exact={true}></Route>
           <Route path={"/test"} component={Test} exact={false}></Route>
         </Switch>
