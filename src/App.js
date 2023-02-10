@@ -13,18 +13,12 @@ import Test from './Test';
 class App extends Component {
   render() {
     return (
-      // <BrowserRouter basename='/chris-tool' >
-      <BrowserRouter>
-        <HashRouter basename="/">
-          <Switch>
-            <Route path="/" component={Home} exact={true}></Route>
-            <Route path="/test" component={Test} exact={false}></Route>
-
-          </Switch>
-        </HashRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
+        <Switch>
+          <Route path="/" component={Home} exact={true}></Route>
+          <Route path="/test" component={Test} exact={false}></Route>
+        </Switch>
       </BrowserRouter>
-
-      // </BrowserRouter>
     );
   }
 

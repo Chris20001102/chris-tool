@@ -34,7 +34,7 @@ class MyNavbar extends Component {
     render() {
         return (
             <Navbar color="dark" dark>
-                <NavbarBrand href="/chris-tool" className="mr-auto">
+                <NavbarBrand href="/" className="mr-auto">
                     <img
                         alt=""
                         src={logo}
@@ -48,7 +48,7 @@ class MyNavbar extends Component {
                 <Collapse isOpen={!this.state.collapse} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/#/test">TEST</NavLink>
+                            <NavLink href="/test">TEST</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://github.com/AidenYang12345">GitHub</NavLink>
