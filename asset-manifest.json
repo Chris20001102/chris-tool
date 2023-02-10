@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chris-tool/static/css/main.68841a8d.css",
-    "main.js": "/chris-tool/static/js/main.5f433c0e.js",
+    "main.js": "/chris-tool/static/js/main.0fda063e.js",
     "static/js/787.79f8033d.chunk.js": "/chris-tool/static/js/787.79f8033d.chunk.js",
     "static/media/logo.svg": "/chris-tool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/chris-tool/index.html",
     "main.68841a8d.css.map": "/chris-tool/static/css/main.68841a8d.css.map",
-    "main.5f433c0e.js.map": "/chris-tool/static/js/main.5f433c0e.js.map",
+    "main.0fda063e.js.map": "/chris-tool/static/js/main.0fda063e.js.map",
     "787.79f8033d.chunk.js.map": "/chris-tool/static/js/787.79f8033d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68841a8d.css",
-    "static/js/main.5f433c0e.js"
+    "static/js/main.0fda063e.js"
   ]
 }
