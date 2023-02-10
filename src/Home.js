@@ -11,7 +11,7 @@ class Home extends Component {
             <div>
                 <MyNavbar />
                 <Button onClick={() => {
-                    window.location.href = "/chris-tool/test";
+                    window.location.href = "/#/test";
                 }}>TEST</Button>
 
             </div>
