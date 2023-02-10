@@ -13,13 +13,13 @@ import Test from './Test';
 class App extends Component {
   render() {
     return (
-      <HashRouter basename={"/chris-tool/"} >
+      <BrowserRouter basename={"/chris-tool"} >
         <Switch>
 
           <Route path={"/"} component={Home} exact={true}></Route>
           <Route path={"/test"} component={Test} exact={false}></Route>
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 
