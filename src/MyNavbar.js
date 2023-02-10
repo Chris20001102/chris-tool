@@ -34,7 +34,7 @@ class MyNavbar extends Component {
     render() {
         return (
             <Navbar color="dark" dark>
-                <NavbarBrand href="/" className="mr-auto">
+                <NavbarBrand href="/chris-tool" className="mr-auto">
                     <img
                         alt=""
                         src={logo}
