@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import MyNavbar from './MyNavbar';
+import { Button } from 'reactstrap';
 
 class Home extends Component {
 
@@ -9,6 +10,9 @@ class Home extends Component {
         return (
             <div>
                 <MyNavbar />
+                <Button onClick={() => {
+                    window.location.href = "/chris-tool/test";
+                }}>TEST</Button>
 
             </div>
         );
