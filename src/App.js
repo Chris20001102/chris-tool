@@ -14,13 +14,15 @@ class App extends Component {
   render() {
     return (
       // <BrowserRouter basename='/chris-tool' >
-      <HashRouter basename='/'>
-        <Switch>
-          <Route path="/" component={Home} exact={true}></Route>
-          <Route path="/test" component={Test} exact={false}></Route>
+      <BrowserRouter>
+        <HashRouter basename="/">
+          <Switch>
+            <Route path="/" component={Home} exact={true}></Route>
+            <Route path="/test" component={Test} exact={false}></Route>
 
-        </Switch>
-      </HashRouter>
+          </Switch>
+        </HashRouter>
+      </BrowserRouter>
 
       // </BrowserRouter>
     );
