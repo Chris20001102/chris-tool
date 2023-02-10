@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chris-tool/static/css/main.68841a8d.css",
-    "main.js": "/chris-tool/static/js/main.03c91d8d.js",
-    "static/js/787.79f8033d.chunk.js": "/chris-tool/static/js/787.79f8033d.chunk.js",
-    "static/media/logo.svg": "/chris-tool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/chris-tool/index.html",
-    "main.68841a8d.css.map": "/chris-tool/static/css/main.68841a8d.css.map",
-    "main.03c91d8d.js.map": "/chris-tool/static/js/main.03c91d8d.js.map",
-    "787.79f8033d.chunk.js.map": "/chris-tool/static/js/787.79f8033d.chunk.js.map"
+    "main.css": "./static/css/main.68841a8d.css",
+    "main.js": "./static/js/main.2bca0ad9.js",
+    "static/js/787.79f8033d.chunk.js": "./static/js/787.79f8033d.chunk.js",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.68841a8d.css.map": "./static/css/main.68841a8d.css.map",
+    "main.2bca0ad9.js.map": "./static/js/main.2bca0ad9.js.map",
+    "787.79f8033d.chunk.js.map": "./static/js/787.79f8033d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68841a8d.css",
-    "static/js/main.03c91d8d.js"
+    "static/js/main.2bca0ad9.js"
   ]
 }
