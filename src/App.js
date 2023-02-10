@@ -13,10 +13,10 @@ import Test from './Test';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename={"/"} >
+      <BrowserRouter basename={"/chris-tool/"} >
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/"} component={Home} exact={true}></Route>
-          <Route path={process.env.PUBLIC_URL + "/test"} component={Test} exact={false}></Route>
+          <Route path={"/"} component={Home} exact={true}></Route>
+          <Route path={"/test"} component={Test} exact={false}></Route>
         </Switch>
       </BrowserRouter>
     );
