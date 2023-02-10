@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter basename='/chris-tool' >
         <Switch>
           <Route path="/" component={Home} exact={true}></Route>
-          <Route path="/test" component={Test} exact={true}></Route>
+          <Route path="/test" component={Test} exact={false}></Route>
 
         </Switch>
       </BrowserRouter>
